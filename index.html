@@ -1,122 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta name="google-site-verification" content="FGRjDfvwJ57XS_vx5a-05CHnMrgfN60pfc7B8edjwo0" />
+<head>
+  <meta name="google-site-verification" content="FGRjDfvwJ57XS_vx5a-05CHnMrgfN60pfc7B8edjwo0" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ashik Raj - Professional Quotex Binary and Forex Trader">
   <meta name="keywords" content="Ashik Raj, Quotex, Binary Trading, Forex, Trading Signals, VIP Telegram">
   <meta name="author" content="Ashik Raj">
   <title>Ashik Raj | Quotex Binary & Forex Trader</title>
+
   <style>
     /* Global Styling */
     * {
       margin: 0;
       padding: 0;
-      box-sizing: border-box; /* Ensure proper sizing of all elements */
+      box-sizing: border-box;
     }
 
     html, body {
-      height: 100%; /* Ensures the body takes full height */
-      width: 100%; /* Ensures the body takes full width */
+      height: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: flex-start; /* Align items to the top */
-      background: #1a1a1a;
-      color: white;
+      justify-content: flex-start;
+      background-color: #000;
+      background-image: url("https://i.ibb.co.com/TGdYSRs/images.jpg"); /* Updated Hacker Style Background */
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      overflow-x: hidden;
     }
 
     header {
       text-align: center;
-      padding: 100px 0;
-      background: linear-gradient(135deg, #1e2a47, #3b4c7a);
-      position: relative;
-      width: 100%; /* Ensure header takes full width */
-      box-sizing: border-box; /* Make sure padding and margin are within the width */
+      padding: 120px 0 60px;
+      background: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      border-bottom: 2px solid #00ff00;
+      box-shadow: 0 0 15px #00ff00;
     }
 
     header h1 {
       font-size: 3.5rem;
       font-weight: 700;
-      color: #ff0a77;
-      margin: 0;
-      animation: glowing 1.5s infinite alternate;
+      color: #00ff00;
+      margin-bottom: 10px;
+      animation: glitch 1s infinite;
     }
 
     header p {
       font-size: 1.5rem;
       font-weight: 500;
-      color: #ddd;
+      color: #00ff00;
     }
 
     header img {
-      width: 150px;
-      height: 150px;
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
-      border: 3px solid #fff;
-      margin-top: 20px;
+      border: 3px solid #00ff00;
+      margin-top: 25px;
       object-fit: cover;
-      animation: fadeInUp 1s ease-out;
+      animation: fadeInUp 1.5s ease-out;
     }
 
     .container {
       width: 100%;
       max-width: 1200px;
-      margin: 0 auto; /* Centers the container */
-      padding: 0 10px; /* Prevents overflow on smaller screens */
+      margin: 0 auto;
+      padding: 20px;
     }
 
     section {
-      padding: 80px 0;
+      padding: 60px 20px;
       text-align: center;
       position: relative;
       width: 100%;
+      background: rgba(0, 0, 0, 0.65);
+      margin-bottom: 30px;
+      border: 1px solid #00ff00;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ff00;
+      backdrop-filter: blur(5px);
+      animation: fadeInUp 1.5s ease-out;
     }
 
     h2 {
       font-size: 2.5rem;
-      color: #ff0a77;
+      color: #00ff00;
       margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ff00;
       animation: slideInFromTop 1s ease-out;
+    }
+
+    h3 {
+      color: #00ff00;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
     }
 
     p {
       font-size: 1.1rem;
-      color: #bbb;
+      color: #00ff00;
       line-height: 1.8;
-      animation: fadeInUp 1s ease-out;
-      text-align: center;
       max-width: 800px;
-      margin: 0 auto; /* Centers the text */
+      margin: 10px auto;
+      text-shadow: 0 0 5px #00ff00;
     }
 
     .service-box {
-      background: #2e3b5b;
-      padding: 40px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
       margin: 20px 0;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-      transition: all 0.3s ease;
-      animation: fadeInUp 1.5s ease-out;
-      width: 100%; /* Ensures boxes fit in the container */
+      border: 1px dashed #00ff00;
+      transition: all 0.4s ease;
     }
 
     .service-box:hover {
       transform: scale(1.05);
+      box-shadow: 0 0 30px #00ff00;
     }
 
     footer {
       text-align: center;
-      padding: 40px;
-      background: #111;
-      color: white;
-      position: relative;
-      width: 100%; /* Ensures footer spans full width */
-      box-sizing: border-box; /* Make sure padding and margin are within the width */
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.85);
+      color: #00ff00;
+      width: 100%;
+      font-size: 0.9rem;
+      border-top: 2px solid #00ff00;
     }
 
     footer a {
-      color: #ff0a77;
+      color: #00ff00;
       text-decoration: none;
     }
 
@@ -125,67 +146,65 @@
     }
 
     .cta-btn {
-      background-color: #ff0a77;
-      color: white;
-      padding: 15px 30px;
+      background-color: #00ff00;
+      color: black;
+      padding: 15px 35px;
       border: none;
       border-radius: 30px;
       cursor: pointer;
-      font-size: 1.2rem;
-      transition: all 0.3s ease;
-      animation: fadeInUp 1s ease-out;
+      font-size: 1.3rem;
+      font-weight: bold;
+      transition: all 0.4s ease;
+      margin-top: 20px;
+      box-shadow: 0 0 10px #00ff00;
     }
 
     .cta-btn:hover {
-      background-color: #ff0066;
-      box-shadow: 0 0 15px rgba(255, 0, 102, 0.6);
+      background-color: #00cc00;
+      box-shadow: 0 0 20px #00ff00;
     }
 
-    @keyframes glowing {
-      0% {
-        text-shadow: 0 0 5px #ff0a77, 0 0 10px #ff0a77, 0 0 15px #ff0a77;
-      }
-      50% {
-        text-shadow: 0 0 20px #ff0a77, 0 0 30px #ff0a77, 0 0 40px #ff0a77;
-      }
-      100% {
-        text-shadow: 0 0 5px #ff0a77, 0 0 10px #ff0a77, 0 0 15px #ff0a77;
-      }
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px #ff00ff, -2px -2px #00ffff; }
+      25% { text-shadow: -2px 2px #00ff00, 2px -2px #ff00ff; }
+      50% { text-shadow: 2px -2px #00ffff, -2px 2px #00ff00; }
+      75% { text-shadow: -2px -2px #ff00ff, 2px 2px #00ffff; }
+      100% { text-shadow: 2px 2px #00ff00, -2px -2px #ff00ff; }
     }
 
     @keyframes slideInFromTop {
-      0% {
-        transform: translateY(-100px);
-        opacity: 0;
-      }
-      100% {
-        transform: translateY(0);
-        opacity: 1;
-      }
+      0% { transform: translateY(-100px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
     }
 
     @keyframes fadeInUp {
-      0% {
-        transform: translateY(30px);
-        opacity: 0;
-      }
-      100% {
-        transform: translateY(0);
-        opacity: 1;
-      }
+      0% { transform: translateY(40px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
     }
 
-    @keyframes fadeInHeader {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
+    .corner-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #00ff00;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 4px 6px rgba(0, 255, 0, 0.5);
+      z-index: 9999;
+      animation: fadeInUp 2s ease-out;
     }
 
+    .corner-button:hover {
+      background-color: #00cc00;
+      box-shadow: 0 0 20px #00ff00;
+    }
   </style>
 </head>
+
 <body>
   <header>
     <h1>ASHIK TRADER</h1>
@@ -194,72 +213,45 @@
   </header>
 
   <div class="container">
-
-    <!-- About Me Section -->
     <section>
       <h2>About Me</h2>
       <p>Hi, I'm <strong>Ashik Raj</strong>, a professional Quotex binary and forex trader with four years of experience. I provide high-accuracy trading signals through my Telegram channel and have successfully recovered losses for many clients.</p>
-      <p>By joining my <strong>Telegram VIP group</strong>, you will receive premium trading signals, a paid trading bot, and bonus signals during major news events. <strong>Contact me to recover your losses and start profiting.</strong></p>
+      <p>Join my <strong>Telegram VIP group</strong> for premium trading signals, a paid trading bot, and bonus signals during major news events. <strong>Contact me to recover your losses and start profiting.</strong></p>
     </section>
 
-    <!-- My Work Section -->
     <section>
       <h2>My Work</h2>
       <div class="service-box">
         <h3>QUOTEX BINARY TRADING</h3>
-        <p>I provide reliable QUOTEX binary trading signals and have four years of experience on the platform. You can learn trading from me and start earning money by joining my VIP group, which includes daily signals and a free trading bot.</p>
+        <p>I provide reliable Quotex binary trading signals with four years of experience. Join my VIP group for daily signals and a free trading bot.</p>
       </div>
     </section>
 
-    <!-- Ashik VIP Bot Section -->
     <section>
       <img src="https://i.ibb.co.com/YBbVxq9z/IMG-20250325-002744-634.jpg" alt="Ashik VIP Bot" style="max-width: 100%; margin-bottom: 20px; border-radius: 10px;" />
-
       <h2>ASHIK VIP BOT</h2>
       <div class="service-box">
         <h3>The Tasks of Our Bot:</h3>
-        <p>Our bot predicts the next candle's direction and operates 24/7. With the help of this bot, you can recover your losses easily and efficiently.</p>
+        <p>Our bot predicts the next candle's direction and operates 24/7, helping you recover losses easily and efficiently.</p>
       </div>
     </section>
 
-    <!-- Contact Section -->
     <section>
       <h2>Contact</h2>
       <p>Email: <a href="mailto:ashikjod416@gmail.com">ashikjod416@gmail.com</a></p>
       <p>WhatsApp: <a href="https://wa.me/8801321626432" target="_blank">01321626432</a></p>
       <p>Facebook: <a href="https://www.facebook.com/share/17rPx8Hbg7/" target="_blank">Visit my Facebook</a></p>
-      <p>Join our VIP Group: <a href="https://t.me/quotex_by_ashik="_blank">Telegram Channel</a></p>
-      <button class="cta-btn">Join Now</button>
+      <p>Telegram: <a href="https://t.me/quotex_by_ashik" target="_blank">Join our VIP Group</a></p>
+      <button class="cta-btn" onclick="window.open('https://t.me/quotex_by_ashik')">Join Now</button>
     </section>
-
   </div>
 
   <footer>
     <p>&copy; 2025 Ashik Raj. All rights reserved.</p>
   </footer>
-<button class="corner-button" onclick="window.open('quotexbyashik_bot.github.io')">
-  BUY VIP BOT
-</button>
 
-<style>
-  .corner-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: red;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-  }
-
-  .corner-button:hover {
-    background-color: darkred;
-  }
-</style>
+  <button class="corner-button" onclick="window.open('https://quotexbyashik_bot.github.io')">
+    BUY VIP BOT
+  </button>
 </body>
-</html>
+      </html>
